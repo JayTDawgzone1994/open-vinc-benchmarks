@@ -1,0 +1,2 @@
+# Exported chart glyphs are generated assets, not handwritten implementation.
+reports/**/*.svg linguist-generated=true

@@ -86,10 +86,41 @@ Local evidence (relative to this checkout, not versioned):
 - WSL functional logs: `/home/vinc-test/build/benchmarks-build.log` and
   `/home/vinc-test/build/benchmarks-test.log`.
 
-## Outstanding coverage / 尚待驗證
+## Optional ROS backend follow-up / ROS 選配後端收尾
+
+2026-10-28–29 Asia/Taipei: installed minimal ROS 2 Jazzy in WSL Ubuntu 24.04,
+built the separate Release rclcpp workload, and completed 116 retained attempts,
+including 63 formal comparisons through 128 MiB and seven native loan cases.
+Full setup corrections and results are in [ROS_COMPARISON.md](ROS_COMPARISON.md).
+Native Open-VINC and tuned ROS each passed 21/21 formal cases; default ROS passed
+11/21. Failed default cases and overload pilots are preserved, not repaired.
+
+Final regression: Windows CTest **3/3**, WSL CTest **2/2**. Both analyzer tests
+discovered **24 unit cases**, including five ROS configuration/capacity checks
+and one growing-queue calibration check in addition to the original 18.
+Every one of the 116 raw runs independently reproduced P50/P90/P99/max and
+reanalyzed identically. Actual maximum native Bus allocation was
+**4,026,664,968 bytes**, below 4 GiB; formal native collision count **0**.
+No benchmark/ModuleHost processes remained after final regression. The primary
+framework worktree and pinned submodule remained clean.
+
+The [published bundle](../reports/2026-10-28-wsl-ros2/README.md) contains all 116
+primary attempts' raw numeric samples and normalized inputs, charts, checksums
+and chart source. Machine-local logs/command lines and duplicate build/source
+trees are excluded. The original full diagnostic/source-snapshot archive remains
+local under `results/wsl-ros2-20261028-224514-735300/`; it is not the public ZIP.
+
+Publication check: extracted the public ZIP, independently reverified all 116
+runs from its raw CSV, and reproduced both committed PNGs pixel-for-pixel using
+the public chart script. All 24 unit cases passed again. Benchmark/runtime sources
+and the framework pin were unchanged, so the existing native/ROS build and CTest
+evidence above remains applicable.
+
+## Remaining coverage / 尚待補驗證範圍
 
 - Native macOS and native Linux execution of this independent suite.
-- Other frameworks and their normalized exporters; no ROS/DDS score is claimed.
+- Other DDS vendors and ROS profiles beyond the recorded Jazzy/Fast DDS WSL
+  workload. See the separate [ROS comparison record](ROS_COMPARISON.md).
 - Full byte-wise payload hashes, multi-Publisher/fan-out profiles, saturation,
   long-duration soak, fault campaigns, pure idle CPU and power measurements.
 - Windows highres at the entire formal matrix; only its smoke path is included

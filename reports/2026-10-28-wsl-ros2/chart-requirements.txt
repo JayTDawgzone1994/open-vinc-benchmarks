@@ -1,0 +1,3 @@
+# Optional chart generation only; Python 3.11+ (tested with 3.13).
+matplotlib==3.10.8
+numpy==2.4.3
