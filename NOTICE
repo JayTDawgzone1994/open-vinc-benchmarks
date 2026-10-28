@@ -1,0 +1,18 @@
+Open-VINC Benchmarks
+Copyright 2026 Jen Kuan Huang (黃任寬)
+Also known as JayTDawgzone.
+
+Source: https://github.com/JayTDawgzone1994/open-vinc-benchmarks
+
+The native benchmark driver, Module, and shared benchmark header are derived
+from Open-VINC's Apache-2.0 Message Bus benchmark. They have been modified for
+this independent test suite, including fixed-grid pacing, formal CPU sampling,
+and normalized analysis inputs.
+
+Open-VINC
+Copyright 2026 Jen Kuan Huang (黃任寬)
+Also known as JayTDawgzone.
+This product includes software developed for the Open-VINC project.
+Website: http://openvinc.com/
+Source: https://github.com/JayTDawgzone1994/open-vinc
+Contact: jaytdawgzone1994@gmail.com

@@ -1,0 +1,3 @@
+[submodule "open-vinc"]
+	path = library/open-vinc
+	url = https://github.com/JayTDawgzone1994/open-vinc.git
