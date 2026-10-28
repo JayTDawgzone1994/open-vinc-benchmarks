@@ -1,0 +1,317 @@
+[
+  {
+    "size": 1024,
+    "backend": "datasharing",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 0.120723,
+      "p90": 0.154944,
+      "p99": 0.233135
+    },
+    "p99_range_ms": [
+      0.198003,
+      0.241057
+    ]
+  },
+  {
+    "size": 1024,
+    "backend": "default",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 0.158499,
+      "p90": 0.216128,
+      "p99": 0.321547
+    },
+    "p99_range_ms": [
+      0.308986,
+      0.43989
+    ]
+  },
+  {
+    "size": 1024,
+    "backend": "vinc",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 0.063318,
+      "p90": 0.081509,
+      "p99": 0.105467
+    },
+    "p99_range_ms": [
+      0.099429,
+      0.116193
+    ]
+  },
+  {
+    "size": 1048576,
+    "backend": "datasharing",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 0.258678,
+      "p90": 0.354313,
+      "p99": 0.507341
+    },
+    "p99_range_ms": [
+      0.495313,
+      0.542869
+    ]
+  },
+  {
+    "size": 1048576,
+    "backend": "default",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 0.553009,
+      "p90": 0.720234,
+      "p99": 1.125627
+    },
+    "p99_range_ms": [
+      1.104844,
+      1.129947
+    ]
+  },
+  {
+    "size": 1048576,
+    "backend": "vinc",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 0.298888,
+      "p90": 0.387042,
+      "p99": 0.568603
+    },
+    "p99_range_ms": [
+      0.483783,
+      0.635697
+    ]
+  },
+  {
+    "size": 8388608,
+    "backend": "datasharing",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 1.916163,
+      "p90": 2.513074,
+      "p99": 3.518576
+    },
+    "p99_range_ms": [
+      3.26423,
+      3.67924
+    ]
+  },
+  {
+    "size": 8388608,
+    "backend": "default",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 4.203795,
+      "p90": 6.030859,
+      "p99": 15.993745
+    },
+    "p99_range_ms": [
+      14.119816,
+      16.600349
+    ]
+  },
+  {
+    "size": 8388608,
+    "backend": "vinc",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 2.226052,
+      "p90": 2.765801,
+      "p99": 4.074139
+    },
+    "p99_range_ms": [
+      3.4618,
+      4.591058
+    ]
+  },
+  {
+    "size": 16777216,
+    "backend": "datasharing",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 4.350348,
+      "p90": 5.876472,
+      "p99": 7.621061
+    },
+    "p99_range_ms": [
+      6.934829,
+      8.023404
+    ]
+  },
+  {
+    "size": 16777216,
+    "backend": "default",
+    "qualified_repeats": 0,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 17.946316,
+      "p90": 34.647957,
+      "p99": 55.472969
+    },
+    "p99_range_ms": [
+      46.503676,
+      57.238235
+    ]
+  },
+  {
+    "size": 16777216,
+    "backend": "vinc",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 4.893659,
+      "p90": 6.224666,
+      "p99": 7.74608
+    },
+    "p99_range_ms": [
+      7.097702,
+      7.960614
+    ]
+  },
+  {
+    "size": 33554432,
+    "backend": "datasharing",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 27.022452,
+      "p90": 29.540869,
+      "p99": 32.624277
+    },
+    "p99_range_ms": [
+      30.490299,
+      49.393104
+    ]
+  },
+  {
+    "size": 33554432,
+    "backend": "default",
+    "qualified_repeats": 0,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 372.799053,
+      "p90": 552.598005,
+      "p99": 697.083075
+    },
+    "p99_range_ms": [
+      624.079068,
+      881.056403
+    ]
+  },
+  {
+    "size": 33554432,
+    "backend": "vinc",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 28.056396,
+      "p90": 30.782006,
+      "p99": 36.449224
+    },
+    "p99_range_ms": [
+      35.433843,
+      130.12196
+    ]
+  },
+  {
+    "size": 67108864,
+    "backend": "datasharing",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 58.299681,
+      "p90": 63.313028,
+      "p99": 73.908077
+    },
+    "p99_range_ms": [
+      68.485519,
+      465.514259
+    ]
+  },
+  {
+    "size": 67108864,
+    "backend": "default",
+    "qualified_repeats": 2,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 189.274861,
+      "p90": 451.289025,
+      "p99": 1000.096471
+    },
+    "p99_range_ms": [
+      297.296312,
+      2280.866335
+    ]
+  },
+  {
+    "size": 67108864,
+    "backend": "vinc",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 60.325074,
+      "p90": 65.312499,
+      "p99": 79.530818
+    },
+    "p99_range_ms": [
+      76.883495,
+      81.317424
+    ]
+  },
+  {
+    "size": 134217728,
+    "backend": "datasharing",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 107.220693,
+      "p90": 127.648479,
+      "p99": 147.014136
+    },
+    "p99_range_ms": [
+      139.923345,
+      153.464489
+    ]
+  },
+  {
+    "size": 134217728,
+    "backend": "default",
+    "qualified_repeats": 0,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 389.703794,
+      "p90": 1429.354155,
+      "p99": 2860.549498
+    },
+    "p99_range_ms": [
+      2593.245683,
+      3854.930397
+    ]
+  },
+  {
+    "size": 134217728,
+    "backend": "vinc",
+    "qualified_repeats": 3,
+    "repeats": 3,
+    "median_of_run_percentiles_ms": {
+      "p50": 126.922251,
+      "p90": 141.202457,
+      "p99": 178.721305
+    },
+    "p99_range_ms": [
+      175.338074,
+      188.564881
+    ]
+  }
+]

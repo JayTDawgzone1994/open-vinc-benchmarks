@@ -102,4 +102,6 @@ the framework differed.
 
 跨框架比較還須分開標示 DDS／ROS 的後端、傳輸、QoS、loan 與接收所有權。
 Vinc 的覆寫歷史與複製期間 Writer 等待，不能冒稱等同 DDS 的可靠交付。
-目前只提供 Vinc 工作負載和共用格式；沒有其他框架實測成績。
+ROS 2 選配工作負載及同機校準／正式測試規則另見 [ROS 方法](../ros2/README.md)。
+原生 runner 的固定矩陣不會自動調整；跨框架 controller 僅在明確標示的校準階段選擇
+共同頻率，正式測試全部凍結，失敗及 100 Hz 壓力結果保留。

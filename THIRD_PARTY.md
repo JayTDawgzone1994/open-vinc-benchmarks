@@ -20,3 +20,10 @@ upstream code's attribution and document its version.
 
 框架與其第三方相依保持原樣，授權清單由固定版本的上游維護；發佈本測試產物時，
 同時附上本專案及框架部署的授權／署名檔案。不同 binary 的實際相依範圍可能不同。
+
+The optional `ros2/` workload is original Apache-2.0 suite code. It dynamically
+uses system-installed ROS 2 Jazzy/rclcpp, rmw_fastrtps_cpp, Fast DDS and Fast CDR;
+their source is not vendored here. Package versions and binary hashes accompany
+measurements. Their upstream license/notice files remain with the installed
+packages. Redistribution of a ROS runtime must include its applicable dependency
+licenses/notices as well; this suite's LICENSE does not replace them.
